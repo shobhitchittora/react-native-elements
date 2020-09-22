@@ -5,6 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+const path = require('path');
+
 module.exports = {
   title: 'React Native Elements' /* title for your website */,
   tagline: 'Cross Platform React Native UI Toolkit',
@@ -17,6 +19,7 @@ module.exports = {
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
   scripts: ['https://buttons.github.io/buttons.js'],
   plugins: [
+    path.resolve(__dirname, 'rn-web-plugin'),
     [
     '@docusaurus/plugin-client-redirects',
       {

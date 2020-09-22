@@ -3,9 +3,21 @@ id: button
 title: Button
 ---
 
-Buttons are touchable elements used to interact with the screen. They may
-display text, icons, or both. Buttons can be styled with several props to look a
-specific way.
+import { Text, Button, Icon } from 'react-native-elements'
+
+<Text> Hello </Text>
+<Button title="BUTTON" />
+
+<Button
+icon={
+<Icon
+      name="arrow-right"
+      size={15}
+      color="white"
+    />
+}
+title="Button with icon component"
+/>
 
 <div className="component-preview component-preview--grid component-preview--grid-3">
   <figure>
@@ -14,7 +26,7 @@ specific way.
   </figure>
   <figure>
   <img src="/react-native-elements/img/button/button--clear.jpg" alt="Clear Button" />
-    <figcaption>Clear</figcaption>
+    <figcaption>LLLLOO</figcaption>
   </figure>
   <figure>
   <img src="/react-native-elements/img/button/button--outline.jpg" alt="Outline Button" />
